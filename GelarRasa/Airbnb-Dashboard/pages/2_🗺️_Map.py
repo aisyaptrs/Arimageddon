@@ -4,7 +4,7 @@ import folium
 from streamlit_folium import st_folium
 
 # Load data dari file Parquet
-data = pd.read_parquet(r"C:\Users\Aisya\Downloads\GelarRasa\Airbnb-Dashboard\listings.parquet")
+data = pd.read_parquet(GelarRasa/Airbnb-Dashboard/listings.parquet")
 
 # Filter data untuk distrik dan neighbourhood tertentu (opsional)
 st.title("🌎 Explore Airbnb Listings")
