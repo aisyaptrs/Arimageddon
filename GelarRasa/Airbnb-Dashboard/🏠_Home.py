@@ -5,8 +5,8 @@ import os
 
 # Load the data (gunakan os.path untuk mengelola path file lebih fleksibel)
 listings = pd.read_parquet('GelarRasa/Airbnb-Dashboard/listings.parquet')
-reviews = pd.read_parquet('GelarRasa/Airbnb-Dashboard/listings.parquet')
-hosts = pd.read_parquet('GelarRasa/Airbnb-Dashboard/listings.parquet')
+reviews = pd.read_parquet('GelarRasa/Airbnb-Dashboard/reviews.parquet')
+hosts = pd.read_parquet('GelarRasa/Airbnb-Dashboard/hosts.parquet')
 
 st.sidebar.title("Airbnb Dashboard Analysis")
 st.sidebar.success("Select Page Above")
