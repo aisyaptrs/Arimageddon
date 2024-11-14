@@ -8,10 +8,10 @@ import matplotlib.pyplot as plt
 
 # Load data
 # Load data from Parquet
-listings = pd.read_parquet(r'C:\Users\Aisya\Downloads\GelarRasa\Airbnb-Dashboard\listings.parquet')
-reviews = pd.read_parquet(r'C:\Users\Aisya\Downloads\GelarRasa\Airbnb-Dashboard\reviews.parquet')
-hosts = pd.read_parquet(r'C:\Users\Aisya\Downloads\GelarRasa\Airbnb-Dashboard\hosts.parquet')
-merged_data = pd.read_parquet(r'C:\Users\Aisya\Downloads\GelarRasa\Airbnb-Dashboard\all.parquet')
+listings = pd.read_parquet('GelarRasa/Airbnb-Dashboard/listings.parquet')
+reviews = pd.read_parquet('GelarRasa/Airbnb-Dashboard/reviews.parquet')
+hosts = pd.read_parquet('GelarRasa/Airbnb-Dashboard/hosts.parquet')
+merged_data = pd.read_parquet(GelarRasa/Airbnb-Dashboard/all.parquet')
 
 # Sidebar filter for city selection
 st.title("📊 Exploratory Data Analysis (EDA)")
