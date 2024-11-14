@@ -4,9 +4,9 @@ import plotly.express as px
 import os
 
 # Load the data (gunakan os.path untuk mengelola path file lebih fleksibel)
-listings = pd.read_parquet(r'C:\Users\Aisya\Downloads\GelarRasa\Airbnb-Dashboard\listings.parquet')
-reviews = pd.read_parquet(r'C:\Users\Aisya\Downloads\GelarRasa\Airbnb-Dashboard\reviews.parquet')
-hosts = pd.read_parquet(r'C:\Users\Aisya\Downloads\GelarRasa\Airbnb-Dashboard\hosts.parquet')
+listings = pd.read_parquet(r'.\listings.parquet')
+reviews = pd.read_parquet(r'.\reviews.parquet')
+hosts = pd.read_parquet(r'.\hosts.parquet')
 
 st.sidebar.title("Airbnb Dashboard Analysis")
 st.sidebar.success("Select Page Above")
