@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 listings = pd.read_parquet('GelarRasa/Airbnb-Dashboard/listings.parquet')
 reviews = pd.read_parquet('GelarRasa/Airbnb-Dashboard/reviews.parquet')
 hosts = pd.read_parquet('GelarRasa/Airbnb-Dashboard/hosts.parquet')
-merged_data = pd.read_parquet(GelarRasa/Airbnb-Dashboard/all.parquet')
+merged_data = pd.read_parquet('GelarRasa/Airbnb-Dashboard/all.parquet')
 
 # Sidebar filter for city selection
 st.title("📊 Exploratory Data Analysis (EDA)")
