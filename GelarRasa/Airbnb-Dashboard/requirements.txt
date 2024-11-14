@@ -8,3 +8,4 @@ seaborn
 shap
 streamlit
 streamlit_folium
+xgboost
