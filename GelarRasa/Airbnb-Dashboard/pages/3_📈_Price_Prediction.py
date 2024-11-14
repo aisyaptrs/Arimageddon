@@ -25,7 +25,7 @@ def st_shap(plot, height=None):
     components.html(shap_html, height=height)
 
 # Load the saved model
-with open(r"C:\Users\Aisya\Downloads\GelarRasa\Airbnb-Dashboard\airbnb_price_predictor_xgb.sav", 'rb') as model_file:
+with open(r"GelarRasa/Airbnb-Dashboard/airbnb_price_predictor_xgb.sav", 'rb') as model_file:
     model = pickle.load(model_file)
 
 # App title
