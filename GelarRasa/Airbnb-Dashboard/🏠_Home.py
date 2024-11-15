@@ -11,7 +11,7 @@ hosts = pd.read_parquet('GelarRasa/Airbnb-Dashboard/hosts.parquet')
 st.sidebar.title("Airbnb Dashboard Analysis")
 st.sidebar.success("Select Page Above")
 
-st.title("✨ Airbnb Dashboard Analysis ✨")
+st.title("✨ Airbnb Dashboard: Navigating Listings, Pricing, and Customer Satisfaction for Optimal Performance ✨")
 st.write("""### *Analysis, Visualization, and Prediction*""")
 
 st.subheader("📃 Pages at a Glance")
