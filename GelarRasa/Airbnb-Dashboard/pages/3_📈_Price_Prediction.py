@@ -29,7 +29,7 @@ with open('GelarRasa/Airbnb-Dashboard/airbnb_price_predictor_xgb.sav', 'rb') as 
     model = pickle.load(model_file)
 
 # App title
-st.markdown('<p class="main-title">Airbnb Price Prediction with SHAP Analysis 🏡</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-title">Airbnb Price Prediction🏡</p>', unsafe_allow_html=True)
 
 # Sidebar for input
 st.sidebar.header("🔧 Input Features")
